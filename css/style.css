@@ -1,0 +1,75 @@
+h1,h2 {
+	font-family: Arial;
+	text-align: center;
+	color: red;
+}
+
+img {
+	width: 200px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: white;
+}
+.container {
+	background-color: white;
+	padding: 4px;
+	display: grid;
+	grid-template-areas: 
+	'header header header header header header'
+	'sub-left sub-left sub-left sub-right sub-right sub-right'
+	'left-menu left-menu main-menu main-menu main-menu right-menu'
+	'footer footer footer footer footer footer';
+	grid-gap: 5px;
+	text-align: center;
+	font-size: 24px;
+}
+.container div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.header {
+	grid-area: header;
+	background-color: lightblue;
+}
+.sub-left {
+	grid-area: sub-left;
+	background-color: yellow; 
+}
+
+.sub-right {
+	grid-area: sub-right;
+	background-color: yellow;
+
+}
+.left-menu {
+	grid-area: left-menu;
+	background-color: pink;
+	height: 400px;
+}
+
+.left-menu p {
+	height: 300px;
+	text-align: justify;
+	padding: 5px;
+}
+.left-menu img {
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+.main-menu {
+	grid-area: main-menu;
+	background-color: magenta;
+	text-align: center;
+
+}
+.right-menu {
+	grid-area: right-menu;
+	background-color: green;
+}
+.footer {
+	grid-area: footer;
+	background-color: orange;
+}
