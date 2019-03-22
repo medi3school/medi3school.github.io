@@ -1,0 +1,81 @@
+@import "main.css";
+.logo img {
+	width: 150px;
+	display: block;
+	float: left;
+}
+.zagolovok h2,h3 {
+	text-align: center;
+}
+.dropdown-menu li a:hover {
+	background: orange;
+}
+
+header.navbar .nav>li>a:hover {
+    background: transparent;
+    color: orange;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+header.navbar .nav>li.active>a, header.navbar .nav>li.active>a:hover {
+    background: transparent;
+    color: orange;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+}
+header.navbar .nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    font-family: "Fjalla One";
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+header.navbar .nav>li.dropdown.open>a.dropdown-toggle {
+    background: transparent;
+    color: orange;
+}
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    color: black; 
+}
+.title {
+    background: orange;
+    color: #fff;
+    padding: 20px 0;
+}
+a {
+    color: black;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a:hover {
+    color: orange;
+}
+.navbar .nav>li>a {
+    float: none;
+    padding: 0px 15px 10px;
+    color: #777777;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+}
+.Footo img {
+    float: left;
+}
+
+
+.shrift {
+   font-family: Lora;
+   font-weight: normal;
+    font-size:25px; 
+}
+.telefon p {
+    font-size: 10px;
+}
