@@ -79,3 +79,18 @@ a:hover {
 #recent-works {
     background-color: #1E90FF;
 }
+.desc h5 {
+    font-size: 20px;
+}
+.desc a {
+    color: white;
+}
+.desc a:hover {
+    color: #FFFF00;
+}
+.pull-left {
+    font-size: 20px;
+}
+.clearfix h4 {
+    color: #9ACD32;
+}
