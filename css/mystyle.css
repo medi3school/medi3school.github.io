@@ -69,8 +69,12 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
 }
+.photo img {
+    border-radius: 5px;
+}
 .collection-text {
-    margin-left: 110px;
+    margin-left: 160px;
+    line-height: 25px;
 }
 #services {
    background: #FF8C00;
@@ -80,7 +84,7 @@ a:hover {
     background-color: #1E90FF;
 }
 .desc h5 {
-    font-size: 20px;
+    font-size: 13px;
 }
 .desc a {
     color: white;
