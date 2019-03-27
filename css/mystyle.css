@@ -69,9 +69,6 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
 }
-.photo img {
-    border-radius: 5px;
-}
 .collection-text {
     margin-left: 160px;
     line-height: 25px;
@@ -100,7 +97,7 @@ a:hover {
 }
 /*MAIN-INFO*/
 .main-info {
-     background-color: #DCDCDC;
+     background-color: #B0E0E6;
 }
 body>section {
     padding: 0;
@@ -125,4 +122,12 @@ body>section {
 }
 #services {
     margin-top: 50px;
+}
+.center h4 {
+    font-size: 30px;
+    color: orange;
+}
+.center p {
+    font-size: 20px;
+    color: black;
 }
