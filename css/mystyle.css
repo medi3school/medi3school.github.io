@@ -102,52 +102,27 @@ a:hover {
 .main-info {
      background-color: #DCDCDC;
 }
-.collections {
-    overflow: auto;
-    margin-top: 5px;
+body>section {
+    padding: 0;
 }
-.collections-title-item {
-    padding-bottom: 5px;
-    color: black;
-    font-size: 36px;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: bold;
+.item {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.collections-item-outer {
-    display: inline-block;
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 33.33%;
-    box-sizing: border-box;
+.clearfix h4 {
+    margin-top: 50px;
 }
-.collections-item {
-    border: 2px solid #959595;
+#bottom h4 {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
-.collections-text {
-    padding: 0 20px 20px 20px;
+#bottom {
+    padding-bottom: 50px;
 }
-.collections-text h3 {
-    color: #0000CD;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-align: center;
-    font: 35px "franklin gothic medium";
+.main-info {
+    padding-top: 50px;
+    
 }
-.collections-text p {
-    height: 200px;
-    overflow: hidden;
-    text-align: left;
-    color: black;
-     font: 25px "franklin gothic medium";
-}
-.cinnisti {
-    margin-left: 0;
-     font: 25px "franklin gothic medium";
-     color: black;
-     height: 200px;
-     margin-left: 10px;
-     line-height: 5px;
+#services {
+    margin-top: 50px;
 }
