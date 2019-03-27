@@ -1,15 +1,21 @@
-  img {
-
-	text-align: center;
-	width: 50%;
-}
 .faq p {
-
+margin-top: 2%;
+font-size: 16px;
+text-align: center;
 }
-h1 {
-	margin-top: 40px;
+.faq img {
+	width: 800px;
+	border: 2px solid black;
+	border-radius: 25px;
 }
-
-.container {
-	padding-left: 350px;
+.container ul {
+	float: right;
+	
+}
+.faq{
+	display: block;
+	width: 700px;
+}
+.saitbar ul {
+ 	text-decoration: none;
 }
