@@ -98,3 +98,56 @@ a:hover {
 .clearfix h4 {
     color: #9ACD32;
 }
+/*MAIN-INFO*/
+.main-info {
+     background-color: #DCDCDC;
+}
+.collections {
+    overflow: auto;
+    margin-top: 5px;
+}
+.collections-title-item {
+    padding-bottom: 5px;
+    color: black;
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.collections-item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.collections-item {
+    border: 2px solid #959595;
+}
+.collections-text {
+    padding: 0 20px 20px 20px;
+}
+.collections-text h3 {
+    color: #0000CD;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    font: 35px "franklin gothic medium";
+}
+.collections-text p {
+    height: 200px;
+    overflow: hidden;
+    text-align: left;
+    color: black;
+     font: 25px "franklin gothic medium";
+}
+.cinnisti {
+    margin-left: 0;
+     font: 25px "franklin gothic medium";
+     color: black;
+     height: 200px;
+     margin-left: 10px;
+     line-height: 5px;
+}
