@@ -134,14 +134,16 @@ body>section {
 }
 .collection-item-text p { 
     text-align: justify;
-    padding-left: 325px;
+    margin-left: 1em;
+    margin-right: 1em;
     font-family: inherit;
     font-size: 17px;
     font-style: inherit;
     font-weight: inherit;
+    padding: 4px;
 }
 .text {
-    padding-left: 300px;
+    margin-left: 10em;
     font-style: inherit;
     font-family: inherit;
    
@@ -151,15 +153,16 @@ body>section {
     font: 30px "franklin gothic medium"; 
     font-family: inherit;
     font-style: inherit;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .gap {
      margin-bottom: 0; 
 }
 .photo img {
-    padding-bottom: 30px;
-    padding-top: 30px;
+   padding: 1.5em;
 }
 #services h5 {
     color: black;
 }
+body {
+     padding-top: 80px; 
