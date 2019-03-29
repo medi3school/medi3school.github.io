@@ -126,8 +126,43 @@ body>section {
 .center h4 {
     font-size: 30px;
     color: orange;
+    font-weight: bold;
 }
 .center p {
     font-size: 20px;
     color: black;
 }
+.collection-item-text p { 
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: inherit;
+    font-size: 17px;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 4px;
+}
+.text {
+    margin-left: 10em;
+    font-style: inherit;
+    font-family: inherit;
+   
+} 
+.collection-item-text h5 {
+    text-align: center;
+    font: 30px "franklin gothic medium"; 
+    font-family: inherit;
+    font-style: inherit;
+    padding-top: 10px;
+}
+.gap {
+     margin-bottom: 0; 
+}
+.photo img {
+   padding: 1.5em;
+}
+#services h5 {
+    color: black;
+}
+body {
+     padding-top: 0; 

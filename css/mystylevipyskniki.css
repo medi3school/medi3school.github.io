@@ -7,15 +7,29 @@ text-align: center;
 	width: 800px;
 	border: 2px solid black;
 	border-radius: 25px;
-}
-.container ul {
-	float: right;
-	
+	float: left;
+	position:absolute;
+	margin-top: 10px;
 }
 .faq{
 	display: block;
 	width: 700px;
 }
 .saitbar ul {
- 	text-decoration: none;
+ 	margin-left: 0;
+ 	padding-left: 0;
+ 	float: right;
+ 	margin-top: 2%;
+}
+.saitbar li {
+	 list-style-type: none;
+}
+.main {
+	margin-top: 200px;
+}
+.text p {
+	margin-top: 170px;
+}
+.saitbar a{
+	font-size: 16px;
 }
