@@ -81,10 +81,11 @@ a:hover {
     background-color: #1E90FF;
 }
 .desc h5 {
-    font-size: 13px;
+    font-size: 14px;
 }
 .desc a {
     color: white;
+    text-align: center;
 }
 .desc a:hover {
     color: #FFFF00;
@@ -165,7 +166,19 @@ body>section {
     color: black;
 }
 body {
-     padding-top: 0; 
+     padding-top: 90px; 
 }
 .nav-arrows {
      position: relative;
+}
+#clients h4 {
+    color: orange;
+    font-weight: bold;
+    font-size: 19px;
+}
+#clients p {
+    font-size: 17px;
+}
+.wow {
+    text-align: center;
+}
