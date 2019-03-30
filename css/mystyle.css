@@ -166,3 +166,6 @@ body>section {
 }
 body {
      padding-top: 0; 
+}
+.nav-arrows {
+     position: relative;
