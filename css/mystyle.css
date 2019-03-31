@@ -81,10 +81,11 @@ a:hover {
     background-color: #1E90FF;
 }
 .desc h5 {
-    font-size: 13px;
+    font-size: 14px;
 }
 .desc a {
     color: white;
+    text-align: center;
 }
 .desc a:hover {
     color: #FFFF00;
@@ -126,8 +127,58 @@ body>section {
 .center h4 {
     font-size: 30px;
     color: orange;
+    font-weight: bold;
 }
 .center p {
     font-size: 20px;
     color: black;
+}
+.collection-item-text p { 
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: inherit;
+    font-size: 17px;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 4px;
+}
+.text {
+    margin-left: 10em;
+    font-style: inherit;
+    font-family: inherit;
+   
+} 
+.collection-item-text h5 {
+    text-align: center;
+    font: 30px "franklin gothic medium"; 
+    font-family: inherit;
+    font-style: inherit;
+    padding-top: 10px;
+}
+.gap {
+     margin-bottom: 0; 
+}
+.photo img {
+   padding: 1.5em;
+}
+#services h5 {
+    color: black;
+}
+body {
+     padding-top: 90px; 
+}
+.nav-arrows {
+     position: relative;
+}
+#clients h4 {
+    color: orange;
+    font-weight: bold;
+    font-size: 19px;
+}
+#clients p {
+    font-size: 17px;
+}
+.wow {
+    text-align: center;
 }
