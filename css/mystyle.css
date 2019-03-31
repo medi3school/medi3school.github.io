@@ -96,6 +96,16 @@ a:hover {
 .clearfix h4 {
     color: #9ACD32;
 }
+/*SLIDER*/
+.sl-slide-horizontal .sl-slide-inner {
+    background: #E67E22;
+}
+.sl-slide-vertical .sl-slide-inner {
+    background: #3498DB;
+}
+.item3 .sl-slide-inner {
+    background: green;
+}
 /*MAIN-INFO*/
 .main-info {
      background-color: #B0E0E6;
