@@ -67,13 +67,10 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
 }
-.Footo img {
-    display: block;
-    float: left;
-    width: 550px;
-    height: 400px;
-    min-width: 250px;
-}
+
+
+
+
 .maps{
     padding: 49px 0 0 0;
 }
@@ -98,4 +95,18 @@ a:hover {
 .maps{
    width: 100%; 
    height: 300px;
+}
+.Footo img {
+    display: block;
+    float: left;
+    width: 550px;
+    height: auto;
+    min-width: 250px;
+}
+@media (max-width: 480px){
+
+.Footo img {
+width: auto;
+max-width: 100%;
+float: none;
 }
