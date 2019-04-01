@@ -105,7 +105,10 @@ a:hover {
     background: #3498DB;
 }
 .item3 .sl-slide-inner {
-    background: green;
+    background: #32CD32;
+}
+.sl-slide-inner a {
+    margin-top:  110px;
 }
 /*MAIN-INFO*/
 .main-info {
