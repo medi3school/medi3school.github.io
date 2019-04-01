@@ -108,7 +108,13 @@ a:hover {
     background: #32CD32;
 }
 .sl-slide-inner a {
-    margin-top:  110px;
+    margin-top:  1em;
+}
+.sl-slider h2 {
+    font-size: 40px;
+}
+.sl-slider h3 {
+   padding-top: 0;
 }
 /*MAIN-INFO*/
 .main-info {
@@ -181,6 +187,7 @@ body>section {
 }
 body {
      padding-top: 90px; 
+     margin-top: 0;
 }
 .nav-arrows {
      position: relative;
