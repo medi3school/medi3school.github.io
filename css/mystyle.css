@@ -62,6 +62,7 @@ a {
 a:hover {
     color: orange;
 }
+
 .navbar .nav>li>a {
     float: none;
     padding: 0px 15px 10px;
@@ -95,6 +96,25 @@ a:hover {
 }
 .clearfix h4 {
     color: #9ACD32;
+}
+/*SLIDER*/
+.sl-slide-horizontal .sl-slide-inner {
+    background: #E67E22;
+}
+.sl-slide-vertical .sl-slide-inner {
+    background: #3498DB;
+}
+.item3 .sl-slide-inner {
+    background: #32CD32;
+}
+.sl-slide-inner a {
+    margin-top:  1em;
+}
+.sl-slider h2 {
+    font-size: 40px;
+}
+.sl-slider h3 {
+   padding-top: 0;
 }
 /*MAIN-INFO*/
 .main-info {
@@ -167,6 +187,7 @@ body>section {
 }
 body {
      padding-top: 90px; 
+     margin-top: 0;
 }
 .nav-arrows {
      position: relative;
