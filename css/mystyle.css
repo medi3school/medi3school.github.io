@@ -75,7 +75,7 @@ a:hover {
     line-height: 25px;
 }
 #services {
-   background: #FF8C00;
+   background: #E67E22;
    color: black; 
 }
 #recent-works {
@@ -134,6 +134,7 @@ body>section {
 }
 .clearfix h4 {
     margin-top: 50px;
+    color: #E67E22;
 }
 #bottom h4 {
     margin-top: 50px;
@@ -207,4 +208,13 @@ body {
 }
 .wow {
     text-align: center;
+}
+
+#recent-works p {
+    color: black;
+}
+
+.row-fluid .span3 {
+    width: 23.023731587561375%;
+     
 }
