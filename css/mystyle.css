@@ -9,7 +9,7 @@
 	text-align: center;
     font-size: 35px;
     padding-top: 15px; 
-
+    padding-left: 15px;
 }
 .dropdown-menu li a:hover {
 	background: orange;
@@ -187,7 +187,7 @@ body>section {
      margin-bottom: 0; 
 }
 .photo img {
-   padding: 1.5em;
+   padding: 1em;
 }
 #services h5 {
     color: black;
