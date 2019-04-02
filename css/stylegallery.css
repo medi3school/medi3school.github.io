@@ -56,7 +56,7 @@ a {
     -o-transition: 300ms;
     transition: 300ms;
 }
-a:hover {
+ a:hover {
     color: orange;
 }
 .navbar .nav>li>a {
@@ -66,18 +66,25 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
 }
-.albums img {
-    height: 180px;
-    width: 100%
-}
+
 .desc h5 {
     text-align: center;
-    color: black;
+    color: lightgreen;
+    font-size: 7px;
 }
 h5:hover {
     color: orange;
-}    
-.albums img {
-    height: 180px;
-    width: 100%
+} 
+.modal-content {
+   height:540px; 
+    width: 900px;  
 }
+.modal-body button {
+background-position: center;
+background-color:  #90EE90;
+}
+.links {
+    text-align: center;
+    position: relative;
+}
+ 
