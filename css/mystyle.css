@@ -111,10 +111,15 @@ a:hover {
     margin-top:  1em;
 }
 .sl-slider h2 {
-    font-size: 40px;
+    font-size: 55px;
+    font-family: Arial Narrow;
+    font-weight: bold;
 }
 .sl-slider h3 {
    padding-top: 0;
+   font-family: Arial Narrow;
+    font-weight: bold;
+    font-size: 29px;
 }
 /*MAIN-INFO*/
 .main-info {

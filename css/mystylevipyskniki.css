@@ -1,20 +1,3 @@
-.faq p {
-margin-top: 2%;
-font-size: 16px;
-text-align: center;
-}
-.faq img {
-	width: 800px;
-	border: 2px solid black;
-	border-radius: 25px;
-	float: left;
-	position:absolute;
-	margin-top: 10px;
-}
-.faq{
-	display: block;
-	width: 700px;
-}
 .saitbar ul {
  	margin-left: 0;
  	padding-left: 0;
@@ -33,4 +16,20 @@ text-align: center;
 }
 .saitbar a{
 	font-size: 16px;
+}
+.img1 img{
+	padding: 1%;
+	width: 10%;
+}
+.dopinf{
+	float: right;
+	margin-right: 13%;
+}
+.dopinf h3{
+	font-size: 16px;
+	float: right;
+	margin-right: 0.009%;
+}
+.dopinf li{
+	 list-style-type: none;
 }
