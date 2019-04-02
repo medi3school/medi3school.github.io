@@ -1,14 +1,15 @@
 @import "main.css";
 .logo img {
-	width: 150px;
-	display: block;
-	float: left;
+    width: 150px;
+    height: 100px;
+    display: block;
+    float: left;
 }
-.zagolovok h2,h3 {
-	text-align: center;
+ h2,h3 {
+    text-align: center;
 }
 .dropdown-menu li a:hover {
-	background: orange;
+    background: orange;
 }
 
 header.navbar .nav>li>a:hover {
@@ -65,4 +66,11 @@ a:hover {
     color: #777777;
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
+}
+h5 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    font-size: 14px;
 }
