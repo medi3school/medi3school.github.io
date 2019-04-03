@@ -1,11 +1,12 @@
 @import "main.css";
-.logo img {
+.logo {
 	width: 150px;
 	display: block;
 	float: left;
 }
  h2 {
 	text-align: center;
+    line-height: 55px;
 }
 .dropdown-menu li a:hover {
 	background: orange;
@@ -73,7 +74,7 @@ p {
     text-align: justify;
     font-size: 14px;
 }
-h1, h2, h3 {
+ .center, h2, h3 {
     color: orange;
 }
 .box {
