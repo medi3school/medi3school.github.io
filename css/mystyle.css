@@ -194,7 +194,7 @@ body {
 }
 .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
     padding-left: 15px;
-    padding-right: 0;
+    padding-right: 10px;
 }
 .span4 {
     line-height: 40px;
