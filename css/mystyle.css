@@ -170,7 +170,7 @@ body>section {
      margin-bottom: 0; 
 }
 .photo img {
-   padding: 1em;
+   padding: 1.5em;
 }
 #services h5 {
     color: black;
@@ -192,14 +192,13 @@ body {
 .wow {
     text-align: center;
 }
-body {
-    padding-left: 0; 
-    padding-right: 0; 
-}
 .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
     padding-left: 15px;
     padding-right: 0;
 }
 .span4 {
     line-height: 40px;
+}
+.thumbnails {
+    text-align: center;
 }
