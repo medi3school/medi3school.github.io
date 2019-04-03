@@ -70,8 +70,9 @@ a {
 .desc h5 {
     text-align: center;
     color: lightgreen;
-    font-size: 7px;
+    font-size: 15px;
 }
+
 h5:hover {
     color: orange;
 } 

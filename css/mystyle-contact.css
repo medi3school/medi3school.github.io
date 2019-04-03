@@ -1,5 +1,6 @@
 @import "main.css";
-@import "bootstrap-responsive.min";
+
+
 
 .logo img {
 	width: 150px;
@@ -83,7 +84,7 @@ a:hover {
 .shrift {
    font-family: Lora;
    font-weight: normal;
-    font-size:48px; 
+    font-size:41px; 
     margin: 30px ;
 }
 #shrifti {
@@ -113,4 +114,7 @@ a:hover {
 width: auto;
 max-width: 100%;
 float: none;
+}
+.row-fluid{
+    width: 25%;
 }
