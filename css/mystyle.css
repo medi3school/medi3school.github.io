@@ -8,7 +8,7 @@
 	text-align: center;
     font-size: 35px;
     padding-top: 15px; 
-
+    padding-left: 15px;
 }
 .dropdown-menu li a:hover {
 	background: orange;
@@ -62,6 +62,7 @@ a {
 a:hover {
     color: orange;
 }
+
 .navbar .nav>li>a {
     float: none;
     padding: 0px 15px 10px;
@@ -74,7 +75,7 @@ a:hover {
     line-height: 25px;
 }
 #services {
-   background: #FF8C00;
+   background: #E67E22;
    color: black; 
 }
 #recent-works {
@@ -104,7 +105,21 @@ a:hover {
     background: #3498DB;
 }
 .item3 .sl-slide-inner {
-    background: green;
+    background: #32CD32;
+}
+.sl-slide-inner a {
+    margin-top:  1em;
+}
+.sl-slider h2 {
+    font-size: 55px;
+    font-family: Arial Narrow;
+    font-weight: bold;
+}
+.sl-slider h3 {
+   padding-top: 0;
+   font-family: Arial Narrow;
+    font-weight: bold;
+    font-size: 29px;
 }
 /*MAIN-INFO*/
 .main-info {
@@ -119,6 +134,7 @@ body>section {
 }
 .clearfix h4 {
     margin-top: 50px;
+    color: #E67E22;
 }
 #bottom h4 {
     margin-top: 50px;
@@ -170,12 +186,15 @@ body>section {
      margin-bottom: 0; 
 }
 .photo img {
-   padding: 1.5em;
+   padding: 1em;
 }
 #services h5 {
     color: black;
 }
-
+body {
+     padding-top: 90px; 
+     margin-top: 0;
+}
 .nav-arrows {
      position: relative;
 }
@@ -189,4 +208,11 @@ body>section {
 }
 .wow {
     text-align: center;
+}
+.row-fluid .span3 {
+    width: 23%;
+}
+body {
+    padding-right: 0;
+    padding-left: 0;
 }
