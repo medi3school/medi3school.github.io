@@ -81,7 +81,7 @@ a:hover {
     background-color: #1E90FF;
 }
 .desc h5 {
-    font-size: 14px;
+    font-size: 13px;
 }
 .desc a {
     color: white;
@@ -104,7 +104,7 @@ a:hover {
     background: #3498DB;
 }
 .item3 .sl-slide-inner {
-    background: green;
+    background: #32CD32;
 }
 /*MAIN-INFO*/
 .main-info {
@@ -170,7 +170,7 @@ body>section {
      margin-bottom: 0; 
 }
 .photo img {
-   padding: 1.5em;
+   padding: 1em;
 }
 #services h5 {
     color: black;
@@ -191,4 +191,15 @@ body {
 }
 .wow {
     text-align: center;
+}
+body {
+    padding-left: 0; 
+    padding-right: 0; 
+}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.span4 {
+    line-height: 40px;
 }
