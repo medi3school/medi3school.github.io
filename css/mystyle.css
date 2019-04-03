@@ -199,3 +199,6 @@ body {
 .span4 {
     line-height: 40px;
 }
+.thumbnails {
+    text-align: center;
+}
