@@ -69,12 +69,12 @@ a {
 
 .desc h5 {
     text-align: center;
-    color: lightgreen;
+    color: orange;
     font-size: 15px;
 }
 
 h5:hover {
-    color: orange;
+    color: lightgreen;
 } 
 .modal-content {
    height:540px; 
