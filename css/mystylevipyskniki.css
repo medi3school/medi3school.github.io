@@ -1,30 +1,72 @@
-.saitbar ul {
- 	margin-left: 0;
- 	padding-left: 0;
- 	float: right;
- 	margin-top: 2%;
- 	margin-right: 3%;
+.logo img {
+	width: 200px;
+	display: block;
+	float: left;
 }
-.saitbar li {
-	 list-style-type: none;
+.zagolovok h2,h3 {
+	text-align: center;
+    font-size: 35px;
+    padding-top: 15px; 
+
 }
-.main {
-	margin-top: 200px;
+.dropdown-menu li a:hover {
+	background: orange;
 }
-.text p {
-	margin-top: 170px;
+
+header.navbar .nav>li>a:hover {
+    background: transparent;
+    color: orange;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
-.saitbar a{
-	font-size: 16px;
+header.navbar .nav>li.active>a, header.navbar .nav>li.active>a:hover {
+    background: transparent;
+    color: orange;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
 }
-.img1 img{
-	padding: 1%;
-	width: 10%;
+header.navbar .nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    font-family: "Fjalla One";
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: none;
 }
-.dopinf{
-	float: right;
-	margin-right: 13%;
+header.navbar .nav>li.dropdown.open>a.dropdown-toggle {
+    background: transparent;
+    color: orange;
 }
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    color: black; 
+}
+.title {
+	padding-top: 50px;
+}
+a {
+    color: black;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a:hover {
+    color: orange;
+}
+.navbar .nav>li>a {
+    float: none;
+    padding: 0px 15px 10px;
+    color: #777777;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+}
+
 .dopinf h3{
 	font-size: 16px;
 	float: right;
@@ -32,4 +74,10 @@
 }
 .dopinf li{
 	 list-style-type: none;
+}
+.row-fluid .span4 {
+    width: 32.623931623931625%;
+} 
+.span4 {
+	margin-left: 10em;
 }
