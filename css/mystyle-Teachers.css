@@ -72,20 +72,27 @@ ul.faq li {
     padding-bottom: 10px;
     margin-left: 10px;
 }
+.blog-item img {
+    border-radius: 100px;
+    border: 3px solid green;
+    box-shadow: 0 0 7px #666;
+}
 
 .photo {
     display: block;
-    
+    float: left;
 
    }
-.photo img {
+.photo img{
+    float: left;
     width: 200px;
 }
-.text {
+.text{
     display: block;
+    float: left;
 }
 .row-fluid{
-    max-width: 2000px;
+    max-width: 800px;
 
    }
  .span4{
@@ -93,6 +100,16 @@ ul.faq li {
  }   
 
 .span8{
+    width : 700px;
     display: block;
+    float: left;
     margin-top: 10px;
-}   
+}
+.span8 img {
+    
+}
+.text3 {
+padding-left: 10px;
+text-align: left;
+padding-top: 30px;
+}
