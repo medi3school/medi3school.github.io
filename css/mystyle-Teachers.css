@@ -75,9 +75,7 @@ ul.faq li {
 
 .photo {
     display: block;
-    
-
-   }
+}
 .photo img {
     width: 200px;
 }
@@ -87,10 +85,10 @@ ul.faq li {
 .row-fluid{
     max-width: 2000px;
 
-   }
+}
  .span4{
     float: right;
- }   
+}   
 
 .span8{
     display: block;
