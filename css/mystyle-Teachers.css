@@ -72,44 +72,25 @@ ul.faq li {
     padding-bottom: 10px;
     margin-left: 10px;
 }
-.blog-item img {
-    border-radius: 100px;
-    border: 3px solid green;
-    box-shadow: 0 0 7px #666;
-}
 
 .photo {
     display: block;
-    float: left;
-
-   }
-.photo img{
-    float: left;
+}
+.photo img {
     width: 200px;
 }
-.text{
+.text {
     display: block;
-    float: left;
 }
 .row-fluid{
-    max-width: 800px;
+    max-width: 2000px;
 
-   }
+}
  .span4{
     float: right;
- }   
+}   
 
 .span8{
-    width : 700px;
     display: block;
-    float: left;
     margin-top: 10px;
-}
-.span8 img {
-    
-}
-.text3 {
-padding-left: 10px;
-text-align: left;
-padding-top: 30px;
-}
+}   
