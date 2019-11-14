@@ -69,7 +69,7 @@ a:hover {
 .rosclad h1 {
     font-size: 46px;
 }
-img {
-    margin-left: 200px;
+.container .photo .imgagess img {
+    text-align: center
 }
 
