@@ -109,11 +109,6 @@
 .item3 .sl-slide-inner {
 	background: #7FFF00;
 }
-.item3 .sl-slide-inner .container .pull-right img{
-	height: 200px;
-	
-}
-
 
 .sl-slider h2 {
 	padding: 170px 0 0;
@@ -326,4 +321,4 @@
 		font-size: 16px;
 	}
 
-	
+}
