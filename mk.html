@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Галерея| Medi3School</title>
+    <title>Галерея | Medi3School</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -25,11 +25,19 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script type="text/javascript" src="js/galleryjs.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.minn.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 
 <body>
     
-    <!--Header-->
+     <!--Header-->
     <header class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
@@ -46,7 +54,7 @@
                     <ul class="nav">
                         <li><a href="https://medi3school.github.io/index.html">Головна</a></li>
                         <li><a href="https://medi3school.github.io/about-us.html">Про школу</a></li>
-                        <li><a href="https://medi3school.github.io/1.html">Новини</a></li>
+                        <li><a href="https://medi3school.github.io/news.html">Новини</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Вчителі<i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -87,11 +95,12 @@
     </header>
     <!-- /header -->
 
+
     <section class="title">
         <div class="container">
             <div class="row-fluid">
                 <div class="span6">
-                    <h1>Фото</h1>
+                    <h1>Майстер клас з медіаграмотності для вчителів</h1>
                 </div>
                 <div class="span6">
                     <ul class="breadcrumb pull-right">
@@ -103,172 +112,143 @@
             </div>
         </div>
     </section>
-    <!-- / .title -->       
+    <!-- / .title -->     
 
     <section id="portfolio" class="container main">    
         <ul class="gallery col-4">
             <!--Item 1-->
-             <li>
+            
+            <li>
                 <div class="preview">
-                    <img alt=" " src="images/gallery/small/1.jpg">
+                    <img src="images/gallery/small/100.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/rizdvo.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/rizdvo.html" target="_self"><h5>Різдво</h5>
-                    </a>
-                </div>                 
-             </div>
-         </li> 
-         <li>
+                        <a data-toggle="modal" href="#modal-1"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-1" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/100.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>               
+            </li>
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/9.jpg">
+                    <img src="images/gallery/small/101.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/kruti.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="hhttps://medi3school.github.io/kruti.html" target="_self"><h5>Крути</h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-2"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-2" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/101.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li> 
-         <li>
+            </li>
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/29.jpg">
+                    <img src="images/gallery/small/102.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/14febr.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/14febr.html target="_self"><h5>14 лютого </h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-3"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-3" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/102.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li> 
-         <li>
+            </li>
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/33.jpg">
+                    <img src="images/gallery/small/103.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/revolution.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/revolution.html" target="_self"><h5>Революція Гідності</h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-4"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-4" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/103.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li> 
-         <li>
+            </li>                   
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/41.jpg">
+                    <img src="images/gallery/small/104.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/wowteachers.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/wowteachers.html" target="_self"><h5>WOW teachers</h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-5"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-5" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/104.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li> 
-         <li>
+            </li>   
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/51.jpg">
+                    <img src="images/gallery/small/105.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/lelechenya.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/lelechenya.html"target="_self"><h5>Лелеченя 2019</h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-6"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-6" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/105.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li> 
-         <li>
+            </li>   
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/75.jpg">
+                    <img src="images/gallery/small/106.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/1ver.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/1ver.html"target="_self"><h5>1 вересня 2019</h5>
-                    </a>
+                        <a data-toggle="modal" href="#modal-7"><i class="icon-eye-open"></i></a>                               
+                    </div>
+                </div>
+                <div id="modal-7" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/106.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
+                    </div>
                 </div>                 
-             </div>
-         </li>
-         <li>
+            </li>
+            <li>
                 <div class="preview">
-                    <img alt="" src="images/gallery/small/78.jpg">
+                    <img src="images/gallery/small/107.jpg" id="MyImg" alt="14 лютого 2019" >
                     <div class="overlay">
                     </div>
                     <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/zdordovk.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/zdordovk.html"target="_self"><h5>Діалоговий простір</h5>
-                    </a>
-                </div>                 
-             </div>
-         </li>
-         <li>
-                <div class="preview">
-                    <img alt="" src="images/gallery/small/92.jpg">
-                    <div class="overlay">
+                        <a data-toggle="modal" href="#modal-8"><i class="icon-eye-open"></i></a>                               
                     </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/nbsclv.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/nbsclv.html"target="_self"><h5>NBSC-Львів</h5>
-                    </a>
-                </div>                 
-             </div>
-         </li>
-          <li>
-                <div class="preview">
-                    <img alt="" src="images/gallery/small/100.jpg">
-                    <div class="overlay">
+                </div>
+                <div id="modal-8" class="modal hide fade">
+                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
+                    <div class="modal-body">
+                        <img src="images/gallery/full/107.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
                     </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/mk.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/mk.html"target="_self"><h5>Майстер клас</h5>
-                    </a>
                 </div>                 
-             </div>
-         </li>
-         <li>
-                <div class="preview">
-                    <img alt="" src="images/gallery/small/114.jpg">
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/dmova.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/denmova.html"target="_self"><h5>День мови</h5>
-                    </a>
-                </div>                 
-             </div>
-         </li>
-         <li>
-                <div class="preview">
-                    <img alt="" src="images/gallery/small/122.jpg">
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="https://medi3school.github.io/bober.html"><i class="icon-eye-open"></i></a> 
-                        <div class="desc">
-                        <a href="https://medi3school.github.io/bober.html"target="_self"><h5>Бобер-2019</h5>
-                    </a>
-                </div>                 
-             </div>
-         </li>
-                          
-        </ul>
+            </li> 
+        
     </section>
 
-   <!--Bottom-->
+    <!--Bottom-->
 <section id="bottom" class="main">
     <!--Container-->
     <div class="container">
@@ -277,7 +257,7 @@
         <div class="row-fluid">
 
             <!--Contact Form-->
-            <div class="span3">
+           <div class="span3">
                 <h4>АДРЕСА</h4>
                 <ul class="unstyled address">
                     <li>
