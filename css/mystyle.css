@@ -202,3 +202,8 @@ body {
 .thumbnails {
     text-align: center;
 }
+.visnik {
+    font-size: 17px;
+    font-family: "Fjalla One";
+    font-weight: normal;
+}
