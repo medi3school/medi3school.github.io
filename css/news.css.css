@@ -1,4 +1,5 @@
 @import "main.css";
+
 .logo img {
     width: 150px;
     height: 100px;
@@ -73,4 +74,9 @@ h5 {
 p {
     text-align: justify;
     font-size: 14px;
+}
+.visnik {
+    font-size: 17px;
+    font-family: "Fjalla One";
+    font-weight: normal;
 }
