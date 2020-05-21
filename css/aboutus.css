@@ -114,8 +114,11 @@ h5 {
 .spisok2 {
     margin-bottom: 10px;
 }
-.statut .col-md-6 {
+.docs .col-md-6 {
     display: inline-block;
     text-align: center;
     margin-left: 10px;
+}
+ h5{
+    padding-bottom: 2px;
 }
