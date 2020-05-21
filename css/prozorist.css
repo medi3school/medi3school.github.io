@@ -1,0 +1,8 @@
+.docs .col-md-6 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+ h5{
+    padding-bottom: 2px;
+}
