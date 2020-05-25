@@ -9,8 +9,50 @@
     <title>Галерея| Medi3School</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Bootstrap CSS -->
+    <link href="/examples/vendors/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fancyBox JS -->
+    <link href="/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+<link href="bootstrap-3.3.2/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" /> 
+  <style> 
+    .mosaicflow__item { 
+      padding:3px; 
+    } 
+    .mosaicflow__column { 
+      float:left; 
+    } 
+    .mosaicflow__item img { 
+      display:block; 
+      width:100%; 
+      height:auto; 
+      padding: 4px; 
+      background-color: #fff; 
+      border: 1px solid #ddd; 
+      border-radius: 4px; 
+    } 
+    .mosaicflow__item img:hover { 
+      opacity: 0.6; 
+      filter: alpha(opacity=60); 
+    } 
+  </style> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/swipebox.css">  
+ <!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+    jQuery(function($) {
+      $(".swipebox").swipebox();
+    });
+  </script>
+    <script src="https://atombond.github.io/web-medianna/js/galleryjs.js"></script>
+    <!------ Eng Light Box ------>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mystyle.css">
@@ -30,6 +72,14 @@
 <body>
     
      <!--Header-->
+     <div class="container">
+  <div class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/LOGOTIP_MEDIANA.png" class="img-responsive" alt="" /></a>
+      </div>
+      <div class="imglogo">
+        <a href="index.html"><img src="images/Log.png" class="img-responsive" alt="" /></a>
+      </div>
     <header class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
@@ -85,11 +135,27 @@
                 </div><!--/.nav-collapse -->
             </div>
         </div>
-    </header>
-    <!-- /header -->
 
 
-    <section class="title">
+			<div class="clearfix"> </div>
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 					
+			</div> 
+	</div> 
+	<div class="banner1">
+		<div class="container">
+			
+		</div>
+	</div>
+
+        <section class="title">
         <div class="container">
             <div class="row-fluid">
                 <div class="span6">
@@ -105,144 +171,71 @@
             </div>
         </div>
     </section>
-    <!-- / .title -->     
 
-    <section id="portfolio" class="container main">    
-        <ul class="gallery col-4">
-            <!--Item 1-->
-            <li>
-                <div class="preview">
-                    <img src="images/001/1.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-1"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/1.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/2.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-2"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-2" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/2.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/3.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-3"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-3" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/3.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/4.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-4"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-4" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/4.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/5.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-5"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-5" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/5.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/6.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-6"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-6" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/6.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/7.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-7"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-7" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/7.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/001/8.jpg" id="MyImg" alt="Різдво" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-8"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-8" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/8.jpg" alt="Різдво" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-                   
-        
-    </section>
+<div class="container">
+  <div class="content-top2">
+    <div class="content">
+    
+<div class="container"> 
+    <div class="clearfix mosaicflow">  
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/1.jpg">
+          <img src="images/gallery/small/1.jpg" alt="Різдво" />
+        </a> 
+      </div>
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/2.jpg">
+          <img src="images/gallery/small/2.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/3.jpg">
+          <img src="images/gallery/small/3.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/4.jpg">
+          <img src="images/gallery/small/4.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/5.jpg">
+          <img src="images/gallery/small/5.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/6.jpg">
+          <img src="images/gallery/small/6.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/7.jpg">
+          <img src="images/gallery/small/7.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/8.jpg">
+          <img src="images/gallery/small/8.jpg" alt="Різдво" />
+        </a> 
+      </div> 
+      
+      </div> 
+      </div>
+    </div> 
+  </div> 
+</div>
+</div>
+  <script src="jquery/jquery-1.11.2.min.js"></script> 
+  <script src="bootstrap-3.3.2/js/bootstrap.min.js"></script> 
+  <script src="jmosaicflow/jquery.mosaicflow.min.js"></script> 
+  <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript"> 
+    $(document).ready(function() { 
+      $("a.fancyimage").fancybox(); 
+    }); 
+  </script> 
 
-    <!--Bottom-->
+<!--Bottom-->
 <section id="bottom" class="main">
     <!--Container-->
     <div class="container">
@@ -395,7 +388,7 @@
 </div>
 <!--  /Login form -->
 
-<script src="js/vendor/jquery-1.9.1.min.js"></script>
+
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 <!-- Required javascript files for Slider -->
@@ -403,38 +396,6 @@
 <script src="js/jquery.slitslider.js"></script>
 <!-- /Required javascript files for Slider -->
 
-<!-- SL Slider -->
-<script type="text/javascript"> 
-$(function() {
-    var Page = (function() {
 
-        var $navArrows = $( '#nav-arrows' ),
-        slitslider = $( '#slider' ).slitslider( {
-            autoplay : true
-        } ),
-
-        init = function() {
-            initEvents();
-        },
-        initEvents = function() {
-            $navArrows.children( ':last' ).on( 'click', function() {
-                slitslider.next();
-                return false;
-            });
-
-            $navArrows.children( ':first' ).on( 'click', function() {
-                slitslider.previous();
-                return false;
-            });
-        };
-
-        return { init : init };
-
-    })();
-
-    Page.init();
-});
-</script>
-<!-- /SL Slider -->
 </body>
 </html>
