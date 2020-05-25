@@ -51,7 +51,7 @@
       $(".swipebox").swipebox();
     });
   </script>
-    
+    <script src="https://atombond.github.io/web-medianna/js/galleryjs.js"></script>
     <!------ Eng Light Box ------>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -59,7 +59,7 @@
     <link rel="stylesheet" href="css/stylegallery.css">
     <link rel="stylesheet" href="css/sl-slide.css">
 
-    
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
@@ -138,7 +138,15 @@
 
 
 			<div class="clearfix"> </div>
-											
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 					
 			</div> 
 	</div> 
 	<div class="banner1">
@@ -217,7 +225,6 @@
   </div> 
 </div>
 </div>
-<script src="js/vendor/bootstrap.min.js"></script>
   <script src="jquery/jquery-1.11.2.min.js"></script> 
   <script src="bootstrap-3.3.2/js/bootstrap.min.js"></script> 
   <script src="jmosaicflow/jquery.mosaicflow.min.js"></script> 
@@ -379,17 +386,48 @@
     </div>
     <!--/Modal Body-->
 </div>
-<!-- jQuery -->
-<script src="/examples/vendors/jquery/jquery-3.2.1.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="/examples/vendors/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<!-- fancyBox JS -->
-<script src="/examples/vendors/fancybox/jquery.fancybox.min.js"></script>
+<!--  /Login form -->
 
 
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<!-- Required javascript files for Slider -->
+<script src="js/jquery.ba-cond.min.js"></script>
+<script src="js/jquery.slitslider.js"></script>
+<!-- /Required javascript files for Slider -->
 
+<!-- SL Slider -->
+<script type="text/javascript"> 
+$(function() {
+    var Page = (function() {
 
+        var $navArrows = $( '#nav-arrows' ),
+        slitslider = $( '#slider' ).slitslider( {
+            autoplay : true
+        } ),
 
+        init = function() {
+            initEvents();
+        },
+        initEvents = function() {
+            $navArrows.children( ':last' ).on( 'click', function() {
+                slitslider.next();
+                return false;
+            });
 
+            $navArrows.children( ':first' ).on( 'click', function() {
+                slitslider.previous();
+                return false;
+            });
+        };
+
+        return { init : init };
+
+    })();
+
+    Page.init();
+});
+</script>
+<!-- /SL Slider -->
 </body>
 </html>
