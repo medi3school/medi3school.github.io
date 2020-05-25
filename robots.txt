@@ -1,4 +1,4 @@
-﻿ser-agent: Googlebot
+﻿User-agent: Googlebot
 User-agent: Yandex
-Host: 
-Host: github.io
+Host: https://medi3school.github.io/
+Sitemap: http://medi3school.github.io/sitemap.xml
