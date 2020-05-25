@@ -1,0 +1,4 @@
+﻿ser-agent: Googlebot
+User-agent: Yandex
+Host: 
+Host: github.io
