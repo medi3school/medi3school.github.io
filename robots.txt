@@ -1,3 +1,0 @@
-User-agent: Googlebot
-Host: medi3school.github.io/
-Sitemap: http://medi3school.github.io/sitemap.xml
