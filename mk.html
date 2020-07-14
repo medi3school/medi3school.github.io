@@ -6,18 +6,76 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Галерея | Medi3School</title>
+    <title>Галерея| Medi3School</title>
+    <script src="js/jquery.min.js"></script>
+    
+  
+  <!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+    jQuery(function($) {
+      $(".swipebox").swipebox();
+    });
+  </script>
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  
+  <script src="jmosaicflow/jquery.mosaicflow.min.js"></script> 
+  <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript"> 
+    $(document).ready(function() { 
+      $("a.fancyimage").fancybox(); 
+    }); 
+  </script> 
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+<!-- Bootstrap CSS -->
+    <link href="/examples/vendors/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fancyBox JS -->
+    <link href="/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+<link href="bootstrap-3.3.2/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" /> 
+  <style> 
+    .mosaicflow__item { 
+      padding:3px; 
+    } 
+    .mosaicflow__column { 
+      float:left; 
+    } 
+    .mosaicflow__item img { 
+      display:block; 
+      width:100%; 
+      height:auto; 
+      padding: 4px; 
+      background-color: #fff; 
+      border: 1px solid #ddd; 
+      border-radius: 4px; 
+    } 
+    .mosaicflow__item img:hover { 
+      opacity: 0.6; 
+      filter: alpha(opacity=60); 
+    } 
+  </style> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/swipebox.css">  
+ 
+    
+    <!------ Eng Light Box ------>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/stylegallery.css">
     <link rel="stylesheet" href="css/sl-slide.css">
 
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
@@ -25,19 +83,19 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <script type="text/javascript" src="js/galleryjs.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.minn.js"></script>
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 
 <body>
     
      <!--Header-->
+     <div class="container">
+  <div class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/LOGOTIP_MEDIANA.png" class="img-responsive" alt="" /></a>
+      </div>
+      <div class="imglogo">
+        <a href="index.html"><img src="images/Log.png" class="img-responsive" alt="" /></a>
+      </div>
     <header class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
@@ -93,11 +151,18 @@
                 </div><!--/.nav-collapse -->
             </div>
         </div>
-    </header>
-    <!-- /header -->
 
+            <div class="clearfix"> </div>
+            </header>                               
+            </div> 
+    </div> 
+    <div class="banner1">
+        <div class="container">
+            
+        </div>
+    </div>
 
-    <section class="title">
+        <section class="title">
         <div class="container">
             <div class="row-fluid">
                 <div class="span6">
@@ -113,143 +178,61 @@
             </div>
         </div>
     </section>
-    <!-- / .title -->     
 
-    <section id="portfolio" class="container main">    
-        <ul class="gallery col-4">
-            <!--Item 1-->
-            
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/100.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-1"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/100.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>               
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/101.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-2"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-2" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/101.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/102.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-3"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-3" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/102.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/103.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-4"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-4" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/103.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>                   
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/104.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-5"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-5" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/104.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>   
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/105.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-6"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-6" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/105.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>   
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/106.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-7"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-7" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/106.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li>
-            <li>
-                <div class="preview">
-                    <img src="images/gallery/small/107.jpg" id="MyImg" alt="14 лютого 2019" >
-                    <div class="overlay">
-                    </div>
-                    <div class="links">
-                        <a data-toggle="modal" href="#modal-8"><i class="icon-eye-open"></i></a>                               
-                    </div>
-                </div>
-                <div id="modal-8" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/gallery/full/107.jpg" id="MyImg" alt="14 лютого 2019" width="100%" style="max-height:400px">
-                    </div>
-                </div>                 
-            </li> 
-        
-    </section>
+    
+<div class="container"> 
+    <div class="clearfix mosaicflow">  
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/100.jpg">
+          <img src="images/gallery/small/100.jpg" alt="Майстер клас" />
+        </a> 
+      </div>
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/101.jpg">
+          <img src="images/gallery/small/101.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/102.jpg">
+          <img src="images/gallery/small/102.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/103.jpg">
+          <img src="images/gallery/small/103.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/104.jpg">
+          <img src="images/gallery/small/104.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/105.jpg">
+          <img src="images/gallery/small/105.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/106.jpg">
+          <img src="images/gallery/small/106.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+      <div class="mosaicflow__item"> 
+        <a class="fancyimage" rel="group" href="images/gallery/full/107.jpg">
+          <img src="images/gallery/small/107.jpg" alt="Майстер клас" />
+        </a> 
+      </div> 
+    </div>
+  </div>
+    </div> 
+  </div> 
+</div>
+</div>
+</body>
 
-    <!--Bottom-->
+
+
+<!--Bottom-->
 <section id="bottom" class="main">
     <!--Container-->
     <div class="container">
@@ -258,7 +241,7 @@
         <div class="row-fluid">
 
             <!--Contact Form-->
-           <div class="span3">
+            <div class="span3">
                 <h4>АДРЕСА</h4>
                 <ul class="unstyled address">
                     <li>
@@ -343,6 +326,7 @@
         </div>
 
         </div>
+      </div>
 
     </div>
     <!--/row-fluid-->
@@ -380,68 +364,5 @@
 </footer>
 <!--/Footer-->
 
-<!--  Login form -->
-<div class="modal hide fade in" id="loginForm" aria-hidden="false">
-    <div class="modal-header">
-        <i class="icon-remove" data-dismiss="modal" aria-hidden="true"></i>
-        <h4>Login Form</h4>
-    </div>
-    <!--Modal Body-->
-    <div class="modal-body">
-        <form class="form-inline" action="index.html" method="post" id="form-login">
-            <input type="text" class="input-small" placeholder="Email">
-            <input type="password" class="input-small" placeholder="Password">
-            <label class="checkbox">
-                <input type="checkbox"> Remember me
-            </label>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
-        <a href="#">Forgot your password?</a>
-    </div>
-    <!--/Modal Body-->
-</div>
-<!--  /Login form -->
 
-<script src="js/vendor/jquery-1.9.1.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<!-- Required javascript files for Slider -->
-<script src="js/jquery.ba-cond.min.js"></script>
-<script src="js/jquery.slitslider.js"></script>
-<!-- /Required javascript files for Slider -->
-
-<!-- SL Slider -->
-<script type="text/javascript"> 
-$(function() {
-    var Page = (function() {
-
-        var $navArrows = $( '#nav-arrows' ),
-        slitslider = $( '#slider' ).slitslider( {
-            autoplay : true
-        } ),
-
-        init = function() {
-            initEvents();
-        },
-        initEvents = function() {
-            $navArrows.children( ':last' ).on( 'click', function() {
-                slitslider.next();
-                return false;
-            });
-
-            $navArrows.children( ':first' ).on( 'click', function() {
-                slitslider.previous();
-                return false;
-            });
-        };
-
-        return { init : init };
-
-    })();
-
-    Page.init();
-});
-</script>
-<!-- /SL Slider -->
-</body>
 </html>
