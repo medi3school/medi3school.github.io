@@ -16,3 +16,8 @@ header.navbar .nav>li>a {
     text-shadow: none;
 }
 
+.embed-responsive {
+    margin: 2%
+}
+
+
