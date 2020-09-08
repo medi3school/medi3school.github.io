@@ -88,4 +88,18 @@ background-color:  #90EE90;
     text-align: center;
     position: relative;
 }
- 
+
+#vid{
+    margin-left: 15%;
+}
+ iframe{
+    height: 174px;
+ }
+ iframe:hover{
+    color: black;
+    opacity: 80%;
+ }
+ #v-text{
+    color: white;
+    background-color: #90EE90;
+ }
