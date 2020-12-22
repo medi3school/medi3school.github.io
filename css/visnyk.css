@@ -4,3 +4,31 @@
 .text-right{
 	text-align: right;
 }
+.btn{
+	border: none;
+	color: #333333;
+	font-size: 12px;
+	padding: 0px 0 5px 0;
+}
+.bts:hover{
+	color: #FFA500;
+}
+.content_wrapper{
+	list-style: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn:focus {
+    outline: 0;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+  details summary:before {
+  content: " > ";
+}
+  details[open] summary:before {
+  content: " > ";
+}
+.visnyk_e{
+	font-size: 16px;
+}
