@@ -1,0 +1,82 @@
+.span6 h1{
+	font-size:38.5px; 
+}
+h1 {
+ 	font-size: 20px;
+ 	margin: 0;
+ }
+.foto_v {
+	display: block;
+	float: left;
+	width: 50%;
+}
+.inform{
+	display: block;
+	width: 47%;
+	float: right;
+	padding: 0 0 0 3%;
+	border-top: 1px solid #A4A6AA ;
+
+}
+.text-center{
+	width: 100%;
+	text-align: center;
+	font-size: 26.8px;
+	font-weight: bold;
+	color: #ffa500;
+	font-family: "Trebuchet MS";
+	margin: 0 0 20px 0;
+}
+
+.tx_inf{
+	margin: 30px 0 0 20px;
+}
+.ots{
+	margin: 0 0 0 10%;
+	opacity: 0.8;
+}
+.ots:hover {
+	color: #ffa500;
+	transition: 0.4s;
+}
+.tx_inf h1{
+	font-weight: bold;
+	font-size: 17px;
+	opacity: 0.9;
+	font-family: "Helvetica";
+}
+.social pull-right_2{
+	float: right;
+}
+.side{
+	float: right;
+	padding: 0 30px 0 0 ;
+}
+.btn{
+	border: none;
+	color: #333333;
+	font-size: 12px;
+	padding: 0px 0 5px 0;
+}
+.bts:hover{
+	color: #FFA500;
+}
+.content_wrapper{
+	list-style: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn:focus {
+    outline: 0;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+  details summary:before {
+  content: " > ";
+}
+  details[open] summary:before {
+  content: " > ";
+}
+.visnyk_e{
+	font-size: 16px;
+}
