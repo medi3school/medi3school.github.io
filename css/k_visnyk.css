@@ -9,13 +9,14 @@ h1 {
 	display: block;
 	float: left;
 	width: 50%;
+	margin-top: 6%;
 }
 .inform{
 	display: block;
 	width: 47%;
 	float: right;
 	padding: 0 0 0 3%;
-	border-top: 1px solid #A4A6AA ;
+	border-top: 1px solid #D3D3D3 ;
 
 }
 .text-center{
@@ -68,14 +69,25 @@ h1 {
 .btn:focus {
     outline: 0;
 }
+.foto_v img{
+	border-radius: 90%;
+	box-shadow: 0px 10px 15px 10px #D3D3D3;
+}
+.icon_vis{
+	width: 8%;
+	opacity: 0.8;
+	margin: 0 2% 0 0;
+}
 details summary::-webkit-details-marker {
   display: none;
 }
   details summary:before {
   content: " > ";
+  opacity: 0.5
 }
   details[open] summary:before {
   content: " > ";
+  opacity: 0.5;
 }
 .visnyk_e{
 	font-size: 16px;
